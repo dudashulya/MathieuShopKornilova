@@ -8,7 +8,38 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ServicesPage">
 
-    <Grid>
-        
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180*"/>
+            <ColumnDefinition Width="378*"/>
+            <ColumnDefinition Width="180*"/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" Width="100" Height="100" VerticalAlignment="Top" Margin="10" Source="/Pages/Logo.png"></Image>
+        <StackPanel Orientation="Vertical" Grid.Column="0" VerticalAlignment="Bottom" Margin="20">
+            <Button Margin="20" Name="ServiceBtn">Услуги</Button>
+            <Button Margin="20" Name="ExitBtn" Click="ExitBtn_Click">Выход</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="2" VerticalAlignment="Top" Margin="0,50,0,0">
+            <TextBlock>Поиск</TextBlock>
+            <TextBox Width="100" Name="SerchTb" TextChanged="SerchTb_TextChanged" ></TextBox>
+            <TextBlock>Collection</TextBlock>
+            <ComboBox DisplayMemberPath="NameCollection" Name="SortCb" SelectionChanged="SortCb_SelectionChanged"></ComboBox>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button Name="BackBtn">Back</Button>
+                <Button Name="NextBtn">Next</Button>
+            </StackPanel>
+
+
+        </StackPanel>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Column="1" Height="350">
+            <ScrollViewer>
+                <WrapPanel Name="MyPanel" Grid.Column="1"></WrapPanel>
+            </ScrollViewer>
+            
+        </Border>
+
+        <TextBlock Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="50" Width="100"></TextBlock>
+
+
     </Grid>
 </Page>

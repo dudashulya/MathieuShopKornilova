@@ -8,18 +8,18 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="RegistrationPage">
 
-    <Grid>
+    <Grid Background="AliceBlue">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock HorizontalAlignment="Center">Регистрация</TextBlock>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock>ФИО</TextBlock>
+            <TextBlock FontSize="20" HorizontalAlignment="Center">Регистрация</TextBlock>
+            <StackPanel Margin="10" Orientation="Horizontal">
+                <TextBlock >ФИО</TextBlock>
                 <TextBox x:Name="NameTb" Width="150"></TextBox>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Margin="10" Orientation="Horizontal">
                 <TextBlock>Логин</TextBlock>
                 <TextBox x:Name="LoginTb" Width="150"></TextBox>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Margin="10" Orientation="Horizontal">
                 <TextBlock>Пароль</TextBlock>
                 <TextBox x:Name="PasswordTb" Width="150"></TextBox>
             </StackPanel>

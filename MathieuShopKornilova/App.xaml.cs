@@ -14,7 +14,7 @@ namespace MathieuShopKornilova
     /// </summary>
     public partial class App : Application
     {
-        public static MatueShopKornilovaEntities1 db = new MatueShopKornilovaEntities1();
+        public static MatueShopKornilovaEntities2 db = new MatueShopKornilovaEntities2();
         public static MainWindow mainWindow;
     }
 }

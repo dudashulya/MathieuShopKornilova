@@ -13,10 +13,10 @@ namespace MathieuShopKornilova.Base
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MatueShopKornilovaEntities1 : DbContext
+    public partial class MatueShopKornilovaEntities2 : DbContext
     {
-        public MatueShopKornilovaEntities1()
-            : base("name=MatueShopKornilovaEntities1")
+        public MatueShopKornilovaEntities2()
+            : base("name=MatueShopKornilovaEntities2")
         {
         }
     

@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:MathieuShopKornilova"
         mc:Ignorable="d"
         Title="Матье" Height="450" Width="800"
+        WindowStyle="None"
+        
                WindowStartupLocation="CenterScreen"
 ResizeMode="NoResize">
     <Grid>
