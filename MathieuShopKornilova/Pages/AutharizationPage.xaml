@@ -20,6 +20,7 @@
                 <TextBox x:Name="PasswordTb" Width="150"></TextBox>
             </StackPanel>
             <Button x:Name="EnterBtn" Click="EnterBtn_Click">Войти</Button>
+            
             <Button x:Name="RegistrationBtn" Click="RegistrationBtn_Click">Регитсрация</Button>
         </StackPanel>
 
