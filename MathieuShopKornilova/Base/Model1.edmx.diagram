@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2fefe263bc1f4882a3c70512f16b2d1a" Name="Diagram1">
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Appointment" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Balances" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Category" Width="1.5" PointX="3.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Collection" Width="1.5" PointX="3.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.MasterService" Width="1.5" PointX="8.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Qualification" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Reviews" Width="1.5" PointX="10.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Role" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Services" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatueShopKornilovaModel.Users" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Appointment_MasterService" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Appointment_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Balances_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Services_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Services_Collection" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_MasterService_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_MasterService_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Reviews_MasterService" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Users_Qualification" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Reviews_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MatueShopKornilovaModel.FK_Users_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
